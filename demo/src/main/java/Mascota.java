@@ -1,6 +1,6 @@
 import java.util.List;
 
-public class Mascota {
+abstract class Mascota {
     private List<CaracteristicaDeUnaMascota> caracteristicas;
     private Asociacion asociacion;
 

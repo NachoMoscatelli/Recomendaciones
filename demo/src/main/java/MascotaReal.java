@@ -1,5 +1,5 @@
 
 
-public class MascotaReal {
+public class MascotaReal extends Mascota {
 
 }

@@ -10,4 +10,5 @@ public class CaracteristicaDeMascota {
     public String getNombre() {
         return nombre;
     }
+
 }

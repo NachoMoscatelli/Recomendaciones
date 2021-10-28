@@ -1,10 +1,9 @@
-import java.util.List;
 
 abstract class PublicacionParaAdoptar extends Publicacion{
-    private Mascota mascota;
-    // private Persona adoptante;
+    private MascotaReal mascota;
 
-    public List<CaracteristicaDeUnaMascota> getCaracteristicaDeMascotas(){
-        return mascota.getCaracteristicas();
+    public MascotaReal getMascota() {
+        return mascota;
     }
+
 }

@@ -7,7 +7,8 @@ public class CaracteristicaDeUnaMascota implements Asociable{
     public CaracteristicaDeMascota getCaracteristica() {
         return caracteristica;
     }
+    
     public ValorCaracteristica getValorSeleccionado() {
         return valorSeleccionado;
-    } 
+    }
 }
